@@ -18,9 +18,9 @@ header {
 }
 
 .header_logo {
+    margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 300px;
     width: 100px;
     height: 70px;
 }
