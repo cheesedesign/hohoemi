@@ -1,0 +1,259 @@
+:root {
+    --main-color: #bb8087;
+    --lead-color: #4b3a45;
+    --main-margin-left: 360px;
+    --mein-margin-raight: 360px;
+}
+
+body {
+    background-color: #fffaf8;
+    font-family: 'YuMincho';
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    height: 80px;
+}
+
+.header_logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    width: 100px;
+    height: 70px;
+}
+
+.header_link {
+    display: flex;
+    margin-left: 600px;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.header_link p {
+    padding-right: 70px;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.headline {
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.headline h2 {
+    position: absolute;
+    color: var(--lead-color);
+    font-size: 36px;
+    top: 55px;
+    left: 530px;
+    font-weight: normal;
+}
+
+.headline p {
+    font-size: 156px;
+    color: var(--main-color);
+    opacity: 0.1;
+}
+
+.contact {
+    margin-left: var(--main-margin-left);
+    margin-right: var(--mein-margin-raight);
+    text-align: center;
+}
+
+.contact-text {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+
+.contact-form-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.contact-title {
+    color: var(--lead-color);
+}
+
+.contact-form-text {
+    height: 2.4em;
+    width: 100%;
+    padding: 0 50px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.m-form-select {
+    position: relative;
+}
+
+.m-form-select:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    transform: rotate(135deg);
+    pointer-events: none;
+}
+
+.m-form-select select {
+    height: 2.4em;
+    width: 100%;
+    padding: 0 92px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.m-form-select select::-ms-expand {
+    display: none;
+}
+
+.m-form-select select:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.m-form-submit-button {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.m-form-submit-button:hover {
+    background-color: #000;
+}
+
+.m-form-submit-button:focus {
+    outline: 0;
+    background-color: #000;
+    border: 2px solid rgb(33, 150, 243);
+}
+
+.footer-top {
+    margin-left: var(--main-margin-left);
+    margin-right: var(--mein-margin-raight);
+}
+
+footer {
+    margin-left: var(--main-margin-left);
+    margin-right: var(--mein-margin-raight);
+}
+
+
+.footer-lead {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-lead-title {
+    font-size: 46px;
+    color: var(--main-color);
+    line-height: 1.5;
+}
+
+.footer-lead-copy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: var(--lead-color);
+}
+
+.footer-button {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.button-tell {
+    width: 100%;
+}
+
+.footer-button img {
+    width: 550px;
+    height: 280px;
+}
+
+.footer-band {
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/24641648_s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 20% bottom 80%;
+    position: relative
+}
+
+.footer-band::after {
+    content: '';
+    background-color: #bb8087;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.footer-box {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-link {
+    width: 100%;
+    color: var(--lead-color);
+    line-height: 2.5;
+    text-align: center;
+}
+
+.small {
+    text-align: center;
+}
+
+small {
+    font-size: 10px;
+}
