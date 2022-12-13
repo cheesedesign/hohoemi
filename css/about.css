@@ -12,13 +12,14 @@ body {
 
 header {
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     display: flex;
+    justify-content: space-between;
     height: 80px;
+    margin: 0 auto;
 }
 
 .header_logo {
-    margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100px;
@@ -27,7 +28,6 @@ header {
 
 .header_link {
     display: flex;
-    margin-left: 600px;
     text-align: right;
     padding-top: 30px;
 }
