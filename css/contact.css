@@ -1,105 +1,205 @@
-.headline h2 {
-    width: 20%;
+@media screen and (min-width: 360px) {
+    .contact-text {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .contact-form-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .contact-title {
+        color: var(--lead-color);
+    }
+
+    .contact-form-text {
+        height: 2em;
+        padding: 0 40px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 0 0 1px #ccc inset;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .contact-text:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+    }
+
+    .m-form-select {
+        position: relative;
+    }
+
+    .m-form-select:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 12px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #333;
+        border-right: 2px solid #333;
+        transform: rotate(135deg);
+        pointer-events: none;
+    }
+
+    .m-form-select select {
+        height: 2em;
+        padding: 0 40px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 0 0 1px #ccc inset;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+    }
+
+    .m-form-select select::-ms-expand {
+        display: none;
+    }
+
+    .m-form-select select:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+    }
+
+    .m-form-submit-button {
+        display: inline-block;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+    }
+
+    .m-form-submit-button:hover {
+        background-color: #000;
+    }
+
+    .m-form-submit-button:focus {
+        outline: 0;
+        background-color: #000;
+        border: 2px solid rgb(33, 150, 243);
+    }
+
+
 }
 
-.contact-text {
-    margin-top: 200px;
-    margin-bottom: 100px;
-    line-height: 1.5;
-}
+@media screen and (min-width: 960px) {
 
-.contact-form-box {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    width: 40%;
-}
+    .contact-text {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        line-height: 1.5;
+    }
 
-.contact-title {
-    color: var(--lead-color);
-}
+    .contact-form-box {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 40%;
+    }
 
-.contact-form-text {
-    height: 2.4em;
-    width: 100%;
-    padding: 0 50px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 0 0 0 1px #ccc inset;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
+    .contact-title {
+        color: var(--lead-color);
+    }
 
-.contact-text:focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
-}
+    .contact-form-text {
+        height: 2.4em;
+        width: 100%;
+        padding: 0 50px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 0 0 1px #ccc inset;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
 
-.m-form-select {
-    position: relative;
-}
+    .contact-text:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+    }
 
-.m-form-select:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    right: 12px;
-    width: 8px;
-    height: 8px;
-    border-top: 2px solid #333;
-    border-right: 2px solid #333;
-    transform: rotate(135deg);
-    pointer-events: none;
-}
+    .m-form-select {
+        position: relative;
+    }
 
-.m-form-select select {
-    height: 2.4em;
-    width: 100%;
-    padding: 0 92px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 0 0 0 1px #ccc inset;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-}
+    .m-form-select:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 12px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #333;
+        border-right: 2px solid #333;
+        transform: rotate(135deg);
+        pointer-events: none;
+    }
 
-.m-form-select select::-ms-expand {
-    display: none;
-}
+    .m-form-select select {
+        height: 2.4em;
+        width: 100%;
+        padding: 0 92px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 0 0 1px #ccc inset;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+    }
 
-.m-form-select select:focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
-}
+    .m-form-select select::-ms-expand {
+        display: none;
+    }
 
-.m-form-submit-button {
-    display: inline-block;
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border-radius: 4px;
-    background-color: #333;
-    color: #fff;
-    font-weight: bold;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-    border: 2px solid transparent;
-}
+    .m-form-select select:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+    }
 
-.m-form-submit-button:hover {
-    background-color: #000;
-}
+    .m-form-submit-button {
+        display: inline-block;
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+    }
 
-.m-form-submit-button:focus {
-    outline: 0;
-    background-color: #000;
-    border: 2px solid rgb(33, 150, 243);
+    .m-form-submit-button:hover {
+        background-color: #000;
+    }
+
+    .m-form-submit-button:focus {
+        outline: 0;
+        background-color: #000;
+        border: 2px solid rgb(33, 150, 243);
+    }
 }
