@@ -17,7 +17,6 @@
     }
 
     .header-box {
-        width: 80%;
         display: flex;
         justify-content: space-between;
         height: 40px;
@@ -29,7 +28,144 @@
         height: 100%;
     }
 
+    .headline {
+        position: relative;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .headline h2 {
+        position: absolute;
+        color: var(--lead-color);
+        font-size: 24px;
+        top: 55px;
+        width: 60%;
+        transform: translate(35%, -130%);
+        font-weight: normal;
+    }
+
+    .headline p {
+        font-size: 68px;
+        color: var(--main-color);
+        opacity: 0.1;
+    }
+
+    .about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .facility {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .join {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .access {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-top {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-lead {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .footer-lead-title {
+        font-size: 24px;
+        color: var(--main-color);
+        line-height: 1.5;
+    }
+
+    .footer-lead-copy {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        color: var(--lead-color);
+    }
+
+    .footer-button {
+        margin-bottom: 100px;
+    }
+
+    .button-tell {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer-button img {
+        width: 360px;
+        height: 200px;
+    }
+
+    .footer-band {
+        width: 100%;
+        height: 160px;
+        background-image: url("../img/24641648_s.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right 20% bottom 80%;
+        position: relative
+    }
+
+    .footer-band::after {
+        content: '';
+        background-color: #bb8087;
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .footer-box {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-link {
+        width: 100%;
+        color: var(--lead-color);
+        line-height: 2.5;
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    small {
+        font-size: 10px;
+    }
 }
+
 
 
 
@@ -131,15 +267,14 @@
 
 
     .footer-top {
-        margin-left: var(--main-margin-left);
-        margin-right: var(--mein-margin-raight);
+        width: 62%;
+        margin: 0 auto;
     }
 
     footer {
-        margin-left: var(--main-margin-left);
-        margin-right: var(--mein-margin-raight);
+        width: 62%;
+        margin: 0 auto;
     }
-
 
     .footer-lead {
         margin-top: 100px;

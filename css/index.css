@@ -6,15 +6,159 @@
     }
 
     .top img {
+        width: 100%;
         vertical-align: top;
     }
 
     .top-lead {
         position: absolute;
-        left: 200px;
-        top: 200px;
+        left: 5px;
+        top: 20px;
     }
 
+    .lead1 {
+        font-size: 16px;
+        left: 15px;
+        margin-bottom: 5px;
+        color: var(--main-color);
+    }
+
+    .lead2 {
+        font-size: 18px;
+        left: 10px;
+        margin-bottom: 10px;
+        color: var(--main-color);
+    }
+
+    .lead3 {
+        font-size: 32px;
+        color: var(--main-color);
+    }
+
+    .top-copy {
+        background-color: var(--main-color);
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        text-align: center;
+        color: var(--lead-color);
+    }
+
+    .about-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-img img {
+        width: 360px;
+        height: 240px;
+        border-radius: 15px;
+    }
+
+    .about-lead-img img {
+        width: 360px;
+        height: 300px;
+    }
+
+    .about-lead-box {
+        position: relative;
+    }
+
+    .about-lead {
+        position: absolute;
+        top: 20px;
+        width: 90%;
+        transform: translate(10%, 25%);
+    }
+
+    .about-lead1 {
+        font-size: 18px;
+        text-align: center;
+        color: var(--main-color);
+        line-height: 1.2;
+    }
+
+    .about-lead2 {
+        font-size: 16px;
+        color: var(--lead-color);
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    .button {
+        text-align: right;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .button img {
+        width: 180px;
+        height: 30px;
+    }
+
+    .facility-img {
+        margin: 0 auto;
+    }
+
+    .facility-img img {
+        width: 360px;
+        height: 260px;
+        border-radius: 15px;
+    }
+
+    .facility-content p {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: var(--lead-color);
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .join-lead {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .join-lead P {
+        font-size: 20px;
+        color: var(--main-color);
+    }
+
+    .join-box {
+        text-align: center;
+    }
+
+    .join-content {
+        width: 100%;
+    }
+
+    .circle {
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        line-height: 2;
+        border-radius: 50%;
+        border: solid 1px var(--main-color);
+    }
+
+    .circle-content img {
+        margin-right: 150px;
+        margin-bottom: 10px;
+    }
+
+    .circle-content h3 {
+        margin-bottom: 20px;
+        color: var(--lead-color);
+    }
+
+    .circle-content p {
+        margin-bottom: 50px;
+        color: var(--lead-color);
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -24,6 +168,7 @@
     }
 
     .top img {
+        width: 100%;
         vertical-align: top;
     }
 
@@ -36,14 +181,14 @@
     .lead1 {
         font-size: 32px;
         left: 15px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
         color: var(--main-color);
     }
 
     .lead2 {
         font-size: 40px;
         left: 10px;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
         color: var(--main-color);
     }
 
@@ -92,16 +237,14 @@
 
     .about-lead {
         position: absolute;
-        top: 70px;
-        margin-left: 100px;
-        margin-right: 100px;
+        width: 85%;
     }
 
     .about-lead1 {
         font-size: 24px;
         text-align: center;
         color: var(--main-color);
-        margin-bottom: 30px;
+        line-height: 1.5;
     }
 
     .about-lead2 {
@@ -147,6 +290,7 @@
         margin-right: 20px;
         color: var(--lead-color);
         line-height: 1.5;
+        font-size: 18px;
     }
 
     .join-lead {
@@ -170,9 +314,10 @@
 
     .circle {
         display: inline-block;
+
         width: 300px;
-        height: 300x;
-        line-height: 60px;
+        height: 300px;
+        line-height: 2.5;
         border-radius: 50%;
         border: solid 1px var(--main-color);
     }
