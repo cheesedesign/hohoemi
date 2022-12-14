@@ -2,12 +2,6 @@
     width: 20%;
 }
 
-.contact {
-    margin-left: var(--main-margin-left);
-    margin-right: var(--mein-margin-raight);
-    text-align: center;
-}
-
 .contact-text {
     margin-top: 200px;
     margin-bottom: 100px;
