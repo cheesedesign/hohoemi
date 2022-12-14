@@ -1,17 +1,59 @@
-.headline h2 {
-    width: 20%;
+@media screen and (min-width: 360px) {
+    .map {
+        width: 100%;
+    }
+
+    .map iframe {
+        width: 360px;
+        height: 150px;
+        border-radius: 15px;
+    }
+
+    .access-box {
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .access-text {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .access-text h3 {
+        width: 20%;
+    }
+
+
+
+    .access-text h3 {
+        margin-right: 30px;
+    }
+
 }
 
-.access-box {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+@media screen and (min-width: 960px) {
 
-.access-text {
-    display: flex;
-    margin-top: 50px;
-}
+    .map {
+        width: 100%;
+    }
 
-.access-text h3 {
-    margin-right: 30px;
+    .map iframe {
+        width: 1200px;
+        height: 300px;
+    }
+
+    .access-box {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .access-text {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .access-text h3 {
+        margin-right: 30px;
+    }
+
 }
