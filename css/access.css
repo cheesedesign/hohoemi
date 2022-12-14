@@ -1,23 +1,5 @@
-.headline {
-    position: relative;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
 .headline h2 {
-    position: absolute;
-    color: var(--lead-color);
-    font-size: 36px;
-    top: 55px;
-    left: 530px;
-    font-weight: normal;
-}
-
-.headline p {
-    font-size: 156px;
-    color: var(--main-color);
-    opacity: 0.1;
+    width: 20%;
 }
 
 .access {
