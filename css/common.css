@@ -33,7 +33,7 @@
      color: var(--lead-color);
      font-size: 18px;
      line-height: 1.5;
-     font-family: 'YuMincho';
+     font-family: 'Noto Serif JP', serif;
  }
 
 
@@ -41,7 +41,7 @@
 
  body {
      background-color: #fffaf8;
-     font-family: 'YuMincho';
+     font-family: 'Noto Serif JP', serif;
  }
 
  header {
