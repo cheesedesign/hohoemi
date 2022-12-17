@@ -1,72 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ほほえみ</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <div class="header_logo">
-            <img src="img/logo.png" alt="logo">
-        </div>
-        <div class="header_link">
-            <p>ほほえみについて</p>
-            <p>施設紹介</p>
-            <p>入会の流れ</p>
-            <p>アクセス</p>
-            <p>お問合せ</p>
+        <div class="header-box">
+            <div class="header_logo">
+                <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                <div class="header_link">
+                    <a href="./about.html">
+                        <p>ほほえみについて</p>
+                    </a>
+                    <a href="./facility.html">
+                        <p>施設紹介</p>
+                    </a>
+                    <a href="./join.html">
+                        <p>入会の流れ</p>
+                    </a>
+                    <a href="./access.html">
+                        <p>アクセス</p>
+                    </a>
+                    <a href="./contact.html">
+                        <p>お問合せ</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <div class="top">
-        <img src="img/アートボード 1.png" alt="シニア女性二人の笑顔の写真">
+    <section class="top">
+        <img src="./img/artboard.png" alt="シニア女性二人の笑顔の写真">
         <div class="top-lead">
             <p class="lead1">健康にも美にもこだわる</p>
             <p class="lead2">女性専用デイサービス</p>
             <p class="lead3">ほほえみ</p>
         </div>
         <div class="top-copy">
-            <p>あなたの笑顔をケアします</p>
+            <h3>あなたの笑顔をケアします</h3>
         </div>
-    </div>
+    </section>
 
-    <div class="about">
+    <section class="about">
         <div class="headline">
             <p>ABOUT</p>
             <h2>ほほえみについて</h2>
         </div>
         <div class="about-box">
             <div class="about-img">
-                <img src="img/2736856_s.jpg" alt="シニア女性の笑顔の写真">
+                <img src="./img/2736856_s.jpg" alt="シニア女性の笑顔の写真">
             </div>
             <div class="about-lead-box">
-                <div class="about-lead-img">
-                    <img src="img/goldframe1.png" alt="金のフレーム">
-                </div>
+
                 <div class="about-lead">
-                    <p class="about-lead1">女性専用だから、普通のデイサービスにすこしプラス</p>
+                    <p class="about-lead1">女性専用だから、</p>
+                    <p class="about-lead1">普通のデイサービスにすこしプラス</p>
+                    </p>
                     <p class="about-lead2">
                         ほほえみでは、食事や入浴に加えておしゃべり会などのレクリエーションや、お化粧講座などの美容部員による美容レクチャーなど、ほほえみならではの楽しみがたくさんあります。</p>
                 </div>
-                <div class="button">
-                    <img src="img/button.png" alt="詳しくはこちら">
-                </div>
+                <a href="./about.html">
+                    <button>
+                        <p>詳しくはこちら</p>
+                    </button>
+                </a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="facility">
+    <section class="facility">
         <div class="headline">
             <p>FACILITY</p>
             <h2 class="facility-h2">施設紹介</h2>
@@ -74,29 +88,29 @@
         <div class="facility-box">
             <div class="facility-content">
                 <div class="facility-img">
-                    <img src="img/facility1.jpg" alt="送迎スタッフ">
+                    <img src="./img/facility1.jpg" alt="送迎スタッフ">
                 </div>
                 <p>送迎バスでご自宅から安全に通うことができます。</p>
             </div>
             <div class="facility-content">
                 <div class="facility-img">
-                    <img src="img/facility2.jpg" alt="ロビー">
+                    <img src="./img/facility2.jpg" alt="ロビー">
                 </div>
                 <p>綺麗な内装のロビーは憩いの場として誰でもご利用いただけます。</p>
             </div>
             <div class="facility-content">
                 <div class="facility-img">
-                    <img src="img/facility3.jpg" alt="パウダールーム">
+                    <img src="./img/facility3.jpg" alt="パウダールーム">
                 </div>
                 <p>パウダールームは、大きな鏡と椅子が設置されており、髪型やお化粧直しにうってつけです。</p>
             </div>
         </div>
-        <div class="button">
-            <img src="img/button.png" alt="詳しくはこちら">
-        </div>
-    </div>
+        <a href="./facility.html"><button>
+                <p>詳しくはこちら</p>
+            </button></a>
+    </section>
 
-    <div class="join">
+    <section class="join">
         <div class="headline">
             <p>JOIN</p>
             <h2 class="join-h2">入会の流れ</h2>
@@ -108,7 +122,7 @@
             <div class="join-content">
                 <a class="circle">
                     <div class="circle-content">
-                        <img src="img/1.png" alt="1">
+                        <img src="./img/1.png" alt="1">
                         <h3>お問合せ</h3>
                         <p>まずは、お問合せいただいてます</p>
                     </div>
@@ -117,7 +131,7 @@
             <div class="join-content">
                 <a class="circle">
                     <div class="circle-content">
-                        <img src="img/2.png" alt="2">
+                        <img src="./img/2.png" alt="2">
                         <h3>無料体験</h3>
                         <p>無料体験毎日実施中</p>
                     </div>
@@ -126,24 +140,24 @@
             <div class="join-content">
                 <a class="circle">
                     <div class="circle-content">
-                        <img src="img/3.png" alt="3">
+                        <img src="./img/3.png" alt="3">
                         <h3>入会</h3>
                         <p>『ほほえみ』のご利用開始</p>
                     </div>
                 </a>
             </div>
         </div>
-        <div class="button">
-            <img src="img/button.png" alt="詳しくはこちら">
-        </div>
-    </div>
+        <a href="./join.html"><button>
+                <p>詳しくはこちら</p>
+            </button></a>
+    </section>
 
 
-    <div class="footer-top">
+    <section class="footer-top">
         <div class="footer-lead">
             <div class="footer-lead-title">
-                <p>女性専用デイサービス</p>
-                <p>ほほえみ</p>
+                <h3>女性専用デイサービス</h3>
+                <h3>ほほえみ</h3>
             </div>
             <div class="footer-lead-copy">
                 <p>ぜひ、一度無料体験してみませんか？</p>
@@ -151,32 +165,47 @@
         </div>
         <div class="footer-button">
             <div class="button-tell">
-                <img src="img/tell.png" alt="電話番号">
+                <img src="./img/tell.png" alt="電話番号">
             </div>
             <div class="button-contact">
-                <img src="img/contact.png" alt="お問合せ">
+                <a href="./contact.html"><img src="./img/contact.png" alt="お問合せ"></a>
             </div>
         </div>
-    </div>
+    </section>
     <div class="footer-band">
-        <!-- <img src="img/24641648_s.jpg" alt="女性従業員とシニア女性の写真"> -->
+
     </div>
 
     <footer>
         <div class="footer-box">
             <div class="footer-logo">
-                <img src="img/logo2.png" alt="ロゴ">
+                <a href="./index.html"><img src="./img/logo2.png" alt="ロゴ"></a>
             </div>
             <div class="footer-link">
-                <p>ほほえみについて</p>
-                <p>施設紹介</p>
-                <p>入会の流れ</p>
-                <p>アクセス</p>
-                <p>お問合せ</p>
+                <a href="./about.html">
+                    <p>ほほえみについて</p>
+                </a>
+                <a href="./facility.html">
+                    <p>施設紹介</p>
+                </a>
+                <a href="./join.html">
+                    <p>入会の流れ</p>
+                </a>
+                <a href="./access.html">
+                    <p>アクセス</p>
+                </a>
+                <a href="./contact.html">
+                    <p>お問合せ</p>
+                </a>
             </div>
         </div>
+        <a href="#">
+            <button>
+                <div class="arrow"></div>
+            </button>
+        </a>
     </footer>
-    <div class="small">
+    <div class="copyright">
         <small>©︎株式会社ベネット</small>
     </div>
 </body>
