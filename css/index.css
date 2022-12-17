@@ -50,29 +50,17 @@
         margin-bottom: 30px;
     }
 
-    /* .about-img img { 
-        width: 360px;
-        height: 240px;
+    .about-img img {
+        width: 100%;
         border-radius: 15px;
-    } */
-
-    /* .about-lead-img img {
-        width: 360px;
-        height: 300px;
-    } */
-
-    */ .about-lead-box {
-        position: relative;
     }
 
+
     .about-lead {
-        /* position: absolute;
-        top: 20px;
-        width: 90%;
-        transform: translate(10%, 25%); */
-        border: 1px solid;
         padding: 30px;
         background-image: url("../img/goldframe1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 
     .about-lead1 {

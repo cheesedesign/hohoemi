@@ -1,4 +1,4 @@
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
     :root {
         --main-color: #bb8087;
         --lead-color: #4b3a45;
