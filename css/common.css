@@ -5,6 +5,19 @@
      --mein-margin-raight: 15px;
  }
 
+ html {
+     scroll-behavior: smooth;
+ }
+
+ .arrow {
+     border-top: 3px solid #ffffff;
+     border-right: 3px solid #ffffff;
+     width: 10px;
+     height: 10px;
+     transform: rotate(-45deg);
+
+ }
+
  p,
  h3 {
      color: var(--lead-color);
@@ -28,7 +41,27 @@
      display: none;
  }
 
+
+
  @media screen and (max-width: 720px) {
+     button {
+         display: block;
+         margin: 0 0 0 auto;
+         margin-top: 100px;
+         background-color: var(--main-color);
+         border: none;
+         outline: none;
+         padding: 10px;
+         border-radius: 15px;
+         text-align: center;
+     }
+
+     button p {
+         color: aliceblue;
+         font-size: 16px;
+         font-family: "Yumincho";
+     }
+
      .menu-btn {
          position: fixed;
          top: 10px;
@@ -251,6 +284,24 @@
 
 
  @media screen and (min-width: 721px) {
+     button {
+         display: block;
+         margin: 0 0 0 auto;
+         width: 300px;
+         margin-top: 100px;
+         background-color: var(--main-color);
+         border: none;
+         outline: none;
+         padding: 15px;
+         border-radius: 15px;
+         text-align: center;
+     }
+
+     button p {
+         color: aliceblue;
+         font-size: 20px;
+         font-family: "Yumincho";
+     }
 
      .header-box {
          width: 80%;
