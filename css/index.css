@@ -1,6 +1,6 @@
 /* スマホ用のCSSはメディアクエリの外に記述する */
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
     .top {
         position: relative;
     }
@@ -50,26 +50,29 @@
         margin-bottom: 30px;
     }
 
-    .about-img img {
+    /* .about-img img { 
         width: 360px;
         height: 240px;
         border-radius: 15px;
-    }
+    } */
 
-    .about-lead-img img {
+    /* .about-lead-img img {
         width: 360px;
         height: 300px;
-    }
+    } */
 
-    .about-lead-box {
+    */ .about-lead-box {
         position: relative;
     }
 
     .about-lead {
-        position: absolute;
+        /* position: absolute;
         top: 20px;
         width: 90%;
-        transform: translate(10%, 25%);
+        transform: translate(10%, 25%); */
+        border: 1px solid;
+        padding: 30px;
+        background-image: url("../img/goldframe1.png");
     }
 
     .about-lead1 {
@@ -213,31 +216,33 @@
     }
 
     .about-img {
-        width: 100%;
+        width: 50%;
     }
 
     .about-img img {
-        width: 580px;
-        height: 400px;
+        width: 100%;
         border-radius: 15px;
     }
 
-    .about-lead-img {
+    /* .about-lead-img {
         width: 100%;
     }
 
     .about-lead-img img {
         width: 500px;
         height: 420px;
-    }
+    } */
 
     .about-lead-box {
         position: relative;
+        width: 40%;
     }
 
     .about-lead {
-        position: absolute;
-        width: 85%;
+        background-image: url("../img/goldframe1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 50px;
     }
 
     .about-lead1 {

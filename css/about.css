@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
 
     .about-content {
         position: relative;
@@ -51,10 +51,10 @@
         margin-bottom: 50px;
     }
 
-    .goldframe img {
+    /* .goldframe img {
         width: 360px;
         height: 100px;
-    }
+    } */
 
     .goldframe-text {
         position: absolute;
@@ -246,15 +246,12 @@
     }
 
     .goldframe {
-        position: relative;
         margin-top: 100px;
         margin-bottom: 150px;
-    }
-
-    .goldframe-text {
-        position: absolute;
-        top: 30px;
-        left: 350px;
+        background-image: url("../img/goldframe2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
     }
 
     .goldframe-text p {
