@@ -18,6 +18,12 @@
 
  }
 
+ .arrow:hover {
+     border-top: 3px solid var(--main-color);
+     border-right: 3px solid var(--main-color);
+     transition: all 0.5s;
+ }
+
  .circle-content h3 {
      color: var(--main-color);
  }
@@ -27,6 +33,7 @@
      color: var(--lead-color);
      font-size: 18px;
      line-height: 1.5;
+     font-family: 'YuMincho';
  }
 
 
@@ -46,10 +53,30 @@
      text-decoration: none;
  }
 
+ .header_link a p:hover {
+     color: #AC9868;
+     transition: all 0.5s;
+
+ }
+
+ .footer-link a p:hover {
+     color: #AC9868;
+     transition: all 0.5s;
+ }
+
  #menu-btn-check {
      display: none;
  }
 
+ button:hover {
+     background-color: #ffffff;
+     color: var(--main-color);
+     cursor: pointer;
+ }
+
+ button p {
+     color: unset;
+ }
 
 
  @media screen and (max-width: 720px) {
@@ -86,12 +113,9 @@
          padding: 10px;
          border-radius: 15px;
          text-align: center;
-     }
-
-     button p {
-         color: aliceblue;
-         font-size: 16px;
-         font-family: "Yumincho";
+         color: #ffffff;
+         border: 1px solid var(--main-color);
+         transition: all 0.5s;
      }
 
      .menu-btn {
@@ -344,12 +368,9 @@
          padding: 15px;
          border-radius: 15px;
          text-align: center;
-     }
-
-     button p {
-         color: aliceblue;
-         font-size: 20px;
-         font-family: "Yumincho";
+         color: #ffffff;
+         border: 1px solid var(--main-color);
+         transition: all 0.5s;
      }
 
      .header-box {
