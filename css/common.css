@@ -28,16 +28,12 @@
      color: var(--main-color);
  }
 
-
  p {
      color: var(--lead-color);
      font-size: 18px;
      line-height: 1.5;
      font-family: 'Noto Serif JP', serif;
  }
-
-
-
 
  body {
      background-color: #fffaf8;
@@ -77,6 +73,22 @@
  button p {
      color: unset;
  }
+
+ .button-contact:hover {
+     background-color: #ffffff;
+     color: var(--main-color);
+     cursor: pointer;
+     transition: all 0.5s;
+ }
+
+ .button-contact a {
+     color: unset;
+ }
+
+ .button-contact h2 {
+     color: unset;
+ }
+
 
 
  @media screen and (max-width: 720px) {
@@ -280,6 +292,16 @@
      .button-tell {
          width: 100%;
          margin-bottom: 50px;
+     }
+
+     .button-contact {
+         background-color: var(--main-color);
+         border-radius: 15px;
+         height: 50vw;
+         text-align: center;
+         line-height: 50vw;
+         border: 1px solid var(--main-color);
+         color: #ffffff;
      }
 
      .footer-button img {
@@ -488,6 +510,16 @@
 
      .button-contact {
          width: 45%;
+     }
+
+     .button-contact {
+         background-color: var(--main-color);
+         border-radius: 15px;
+         height: 280px;
+         text-align: center;
+         line-height: 280px;
+         border: 1px solid var(--main-color);
+         color: #ffffff;
      }
 
      .footer-button img {
