@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 720px) {
 
     .contact-button img {
         width: 90%;
@@ -119,7 +119,7 @@
 
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 721px) {
 
     .contact-text {
         margin-top: 200px;
