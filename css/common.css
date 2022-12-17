@@ -287,7 +287,6 @@
      button {
          display: block;
          margin: 0 0 0 auto;
-         width: 300px;
          margin-top: 100px;
          background-color: var(--main-color);
          border: none;
