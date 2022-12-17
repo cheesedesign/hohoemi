@@ -10,7 +10,16 @@
     margin: 0 auto;
 }
 
+.contact-button {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 390px) {
+
+    .contact-button img {
+        width: 90%;
+    }
+
     .contact-text {
         margin-top: 50px;
         margin-bottom: 30px;

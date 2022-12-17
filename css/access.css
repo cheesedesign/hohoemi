@@ -18,7 +18,6 @@
     .access-text {
         display: flex;
         margin-top: 50px;
-
     }
 
     .access-text h3 {
@@ -41,8 +40,8 @@
     }
 
     .map iframe {
-        width: 1200px;
-        height: 300px;
+        width: 100%;
+        min-height: 300px;
     }
 
     .access-box {
