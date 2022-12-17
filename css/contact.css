@@ -1,14 +1,16 @@
-@media screen and (max-width: 360px) {
+.contact-form-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 390px) {
     .contact-text {
         margin-top: 50px;
         margin-bottom: 30px;
         line-height: 1.5;
-    }
-
-    .contact-form-box {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 30px;
     }
 
     .contact-title {
@@ -108,10 +110,6 @@
     }
 
     .contact-form-box {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-bottom: 30px;
         width: 40%;
     }
 

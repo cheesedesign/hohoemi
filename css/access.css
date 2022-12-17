@@ -1,15 +1,16 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     .map {
         width: 100%;
+        margin: 0 auto;
     }
 
     .map iframe {
-        width: 360px;
-        height: 150px;
+        width: 100%;
         border-radius: 15px;
     }
 
     .access-box {
+        margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 100px;
     }
@@ -17,6 +18,7 @@
     .access-text {
         display: flex;
         margin-top: 50px;
+
     }
 
     .access-text h3 {
@@ -35,6 +37,7 @@
 
     .map {
         width: 100%;
+        margin: 0 auto;
     }
 
     .map iframe {
@@ -43,8 +46,10 @@
     }
 
     .access-box {
+        margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 100px;
+        width: 30%;
     }
 
     .access-text {
