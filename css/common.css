@@ -24,19 +24,89 @@
      text-decoration: none;
  }
 
- @media screen and (max-width: 720px) {
+ #menu-btn-check {
+     display: none;
+ }
 
+ @media screen and (max-width: 720px) {
+     .menu-btn {
+         position: fixed;
+         top: 10px;
+         right: 10px;
+         display: flex;
+         height: 60px;
+         width: 60px;
+         justify-content: center;
+         align-items: center;
+         z-index: 90;
+     }
+
+     .menu-btn span,
+     .menu-btn span:before,
+     .menu-btn span:after {
+         content: '';
+         display: block;
+         height: 3px;
+         width: 25px;
+         border-radius: 3px;
+         background-color: var(--main-color);
+         position: absolute;
+     }
+
+     .menu-btn span:before {
+         bottom: 8px;
+     }
+
+     .menu-btn span:after {
+         top: 8px;
+     }
+
+
+     #menu-btn-check:checked~.menu-btn span {
+         background-color: rgba(255, 255, 255, 0);
+         /*メニューオープン時は真ん中の線を透明にする*/
+     }
+
+     #menu-btn-check:checked~.menu-btn span::before {
+         bottom: 0;
+         transform: rotate(45deg);
+         background-color: #ffffff;
+     }
+
+     #menu-btn-check:checked~.menu-btn span::after {
+         top: 0;
+         transform: rotate(-45deg);
+         background-color: #ffffff;
+     }
+
+     .header_link {
+         width: 100%;
+         height: 100%;
+         position: fixed;
+         top: 0;
+         left: 100%;
+         z-index: 80;
+         background-color: var(--main-color);
+         transition: all 0.5s;
+         padding: 50px;
+     }
+
+     .header_link p {
+         color: #ffffff;
+         margin-bottom: 20px;
+     }
+
+     #menu-btn-check:checked~.header_link {
+         left: 20%;
+     }
 
      .header-box {
-         display: flex;
-         justify-content: space-between;
-         height: 40px;
          margin: 0 auto;
      }
 
      .header_logo {
          width: 100%;
-         height: 100%;
+         margin-top: 10px;
      }
 
      .headline {
