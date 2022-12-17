@@ -6,6 +6,10 @@
 
 }
 
+.contact-form button {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 390px) {
     .contact-text {
         margin-top: 50px;
@@ -17,9 +21,14 @@
         color: var(--lead-color);
     }
 
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
     .contact-form-text {
         height: 2em;
-        padding: 0 40px;
         border-radius: 4px;
         border: none;
         box-shadow: 0 0 0 1px #ccc inset;

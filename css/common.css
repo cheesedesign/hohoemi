@@ -23,6 +23,16 @@
      color: var(--lead-color);
  }
 
+ h2 {
+     font-size: 36px;
+     font-weight: normal;
+
+ }
+
+ h3 {
+     font-size: 24px;
+ }
+
  body {
      background-color: #fffaf8;
      font-family: 'YuMincho';
@@ -332,8 +342,8 @@
      .headline {
          position: relative;
          text-align: center;
-         margin-top: 200px;
-         margin-bottom: 200px;
+         margin-top: 100px;
+         margin-bottom: 100px;
      }
 
      .headline h2 {
