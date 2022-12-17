@@ -1,6 +1,4 @@
-/* スマホ用のCSSはメディアクエリの外に記述する */
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 720px) {
     .top {
         position: relative;
     }
@@ -152,7 +150,7 @@
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 721px) {
 
     .top {
         position: relative;

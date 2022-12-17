@@ -20,7 +20,7 @@
      width: 100%;
  }
 
- @media screen and (max-width: 390px) {
+ @media screen and (max-width: 720px) {
 
 
      .header-box {
@@ -176,7 +176,7 @@
 
 
 
- @media screen and (min-width: 960px) {
+ @media screen and (min-width: 721px) {
 
      .header-box {
          width: 80%;
