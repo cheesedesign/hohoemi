@@ -75,15 +75,10 @@
         margin-top: 20px;
     }
 
-    .button {
+    button {
         text-align: right;
         width: 100%;
         margin-top: 100px;
-    }
-
-    .button img {
-        width: 180px;
-        height: 30px;
     }
 
     .facility-img {
@@ -244,15 +239,22 @@
         line-height: 2;
     }
 
-    .button {
-        text-align: right;
-        width: 100%;
+    button {
+        display: block;
+        margin: 0 0 0 auto;
+        width: 300px;
         margin-top: 100px;
+        background-color: var(--main-color);
+        border: none;
+        outline: none;
+        padding: 15px;
+        border-radius: 15px;
     }
 
-    .button img {
-        width: 300px;
-        height: 55px;
+    button p {
+        color: aliceblue;
+        font-size: 20px;
+        font-family: "Yumincho";
     }
 
     .facility-box {
