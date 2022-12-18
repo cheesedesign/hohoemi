@@ -2,6 +2,9 @@
      --main-color: #bb8087;
      --lead-color: #4b3a45;
      --white-color: #ffffff;
+     --beige-color: #fffaf8;
+     --pinkbeige-color: #f6efeb;
+     --gold-color: #ac9868;
  }
 
  html {
@@ -35,7 +38,7 @@
  }
 
  body {
-     background-color: #fffaf8;
+     background-color: var(--beige-color);
      font-family: 'Noto Serif JP', serif;
  }
 
@@ -49,13 +52,13 @@
  }
 
  .header_link a p:hover {
-     color: #AC9868;
+     color: var(--gold-color);
      transition: all 0.5s;
 
  }
 
  .footer-link a p:hover {
-     color: #AC9868;
+     color: var(--gold-color);
      transition: all 0.5s;
  }
 
@@ -319,7 +322,7 @@
 
      .footer-band::after {
          content: '';
-         background-color: #bb8087;
+         background-color: var(--main-color);
          opacity: 0.3;
          position: absolute;
          left: 0;
@@ -542,7 +545,7 @@
 
      .footer-band::after {
          content: '';
-         background-color: #bb8087;
+         background-color: var(--main-color);
          opacity: 0.3;
          position: absolute;
          left: 0;

@@ -48,7 +48,7 @@
 
     .contact-text:focus {
         outline: 0;
-        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+        box-shadow: 0 0 0 2px var(--main-color) inset;
     }
 
     .m-form-select {
@@ -64,8 +64,8 @@
         right: 12px;
         width: 8px;
         height: 8px;
-        border-top: 2px solid #333;
-        border-right: 2px solid #333;
+        border-top: 2px solid var(--lead-color);
+        border-right: 2px solid var(--lead-color);
         transform: rotate(135deg);
         pointer-events: none;
     }
@@ -85,37 +85,6 @@
     .m-form-select select::-ms-expand {
         display: none;
     }
-
-    .m-form-select select:focus {
-        outline: 0;
-        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
-    }
-
-    .m-form-submit-button {
-        display: inline-block;
-        padding: 8px;
-        border: none;
-        border-radius: 4px;
-        background-color: #333;
-        color: #fff;
-        font-weight: bold;
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        cursor: pointer;
-        border: 2px solid transparent;
-    }
-
-    .m-form-submit-button:hover {
-        background-color: #000;
-    }
-
-    .m-form-submit-button:focus {
-        outline: 0;
-        background-color: #000;
-        border: 2px solid rgb(33, 150, 243);
-    }
-
 
 }
 
@@ -149,7 +118,7 @@
 
     .contact-text:focus {
         outline: 0;
-        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+        box-shadow: 0 0 0 2px var(--main-color) inset;
     }
 
     .m-form-select {
@@ -165,8 +134,8 @@
         right: 12px;
         width: 8px;
         height: 8px;
-        border-top: 2px solid #333;
-        border-right: 2px solid #333;
+        border-top: 2px solid var(--lead-color);
+        border-right: 2px solid var(--lead-color);
         transform: rotate(135deg);
         pointer-events: none;
     }
@@ -190,32 +159,6 @@
 
     .m-form-select select:focus {
         outline: 0;
-        box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
-    }
-
-    .m-form-submit-button {
-        display: inline-block;
-        width: 100%;
-        padding: 8px;
-        border: none;
-        border-radius: 4px;
-        background-color: #333;
-        color: #fff;
-        font-weight: bold;
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        cursor: pointer;
-        border: 2px solid transparent;
-    }
-
-    .m-form-submit-button:hover {
-        background-color: #000;
-    }
-
-    .m-form-submit-button:focus {
-        outline: 0;
-        background-color: #000;
-        border: 2px solid rgb(33, 150, 243);
+        box-shadow: 0 0 0 2px var(--main-color) inset;
     }
 }

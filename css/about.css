@@ -124,7 +124,7 @@
 
 
     .staff {
-        background-color: #F6EFEB;
+        background-color: var(--pinkbeige-color);
         padding-top: 50px;
         margin-top: 130px;
         padding-bottom: 50px;
@@ -151,7 +151,7 @@
     }
 
     .staff-text {
-        background-color: #FFFAF8;
+        background-color: var(--pinkbeige-color);
         text-align: center;
         border-radius: 0 0 15px 15px;
         padding-top: 10px;
@@ -295,7 +295,7 @@
 
 
     .staff {
-        background-color: #F6EFEB;
+        background-color: var(--pinkbeige-color);
         padding-top: 100px;
         margin-top: 130px;
     }
@@ -327,7 +327,7 @@
     }
 
     .staff-text {
-        background-color: #FFFAF8;
+        background-color: var(--pinkbeige-color);
         padding: 40px;
         text-align: center;
         border-radius: 0 0 15px 15px;
