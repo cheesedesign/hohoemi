@@ -13,18 +13,21 @@
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 100px;
+        width: 90%;
     }
 
     .access-text {
         display: flex;
         margin-top: 50px;
         justify-content: space-between;
-        width: 90%;
     }
 
+    .access-title {
+        width: 30%;
+    }
 
-    .access-text p {
-        width: 50%;
+    .access-info {
+        width: 70%;
     }
 
 }
