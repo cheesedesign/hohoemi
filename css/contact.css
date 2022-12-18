@@ -8,6 +8,8 @@
 
 .contact-form button {
     margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .contact-button {
@@ -15,6 +17,10 @@
 }
 
 @media screen and (max-width: 720px) {
+
+    .contact-box {
+        width: 50%;
+    }
 
     .contact-button img {
         width: 90%;
@@ -28,6 +34,7 @@
 
     .contact-title {
         color: var(--lead-color);
+        width: 40%;
     }
 
     .contact-form {
@@ -53,6 +60,7 @@
 
     .m-form-select {
         position: relative;
+        width: 50%;
     }
 
     .m-form-select:before {
@@ -61,7 +69,7 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        right: 12px;
+        right: 25px;
         width: 8px;
         height: 8px;
         border-top: 2px solid var(--lead-color);
@@ -72,14 +80,13 @@
 
     .m-form-select select {
         height: 2em;
-        padding: 0 40px;
         border-radius: 4px;
+        padding-left: 40px;
         border: none;
         box-shadow: 0 0 0 1px #ccc inset;
         appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
         cursor: pointer;
+        width: 100%;
     }
 
     .m-form-select select::-ms-expand {
@@ -102,6 +109,7 @@
 
     .contact-title {
         color: var(--lead-color);
+        width: 50%;
     }
 
     .contact-form-text {

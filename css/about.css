@@ -1,3 +1,8 @@
+.staff-img img {
+    vertical-align: top;
+}
+
+
 @media screen and (max-width: 720px) {
 
     .about-content {
@@ -124,7 +129,6 @@
 
 
     .staff {
-        background-color: var(--pinkbeige-color);
         padding-top: 50px;
         margin-top: 130px;
         padding-bottom: 50px;
@@ -141,6 +145,7 @@
 
     .staff-img {
         width: 100%;
+
     }
 
     .staff-img img {
@@ -295,7 +300,6 @@
 
 
     .staff {
-        background-color: var(--pinkbeige-color);
         padding-top: 100px;
         margin-top: 130px;
     }
@@ -312,6 +316,7 @@
     }
 
     .staff-content {
+        width: 30%;
         margin-bottom: 50px;
     }
 
@@ -320,9 +325,7 @@
     }
 
     .staff-img img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
+        width: 100%;
         border-radius: 15px 15px 0 0;
     }
 
