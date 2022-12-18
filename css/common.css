@@ -1,8 +1,6 @@
  :root {
      --main-color: #bb8087;
      --lead-color: #4b3a45;
-     --main-margin-left: 15px;
-     --mein-margin-raight: 15px;
  }
 
  html {
@@ -378,6 +376,11 @@
 
      .footer-lead-title h3 {
          font-size: 36px;
+     }
+
+
+     p {
+         line-height: 2;
      }
 
      button {

@@ -42,9 +42,7 @@
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 18px;
         text-align: center;
-        color: var(--lead-color);
     }
 
     .about-img {
@@ -66,16 +64,12 @@
     }
 
     .about-lead1 {
-        font-size: 18px;
         text-align: center;
         color: var(--main-color);
         line-height: 1.2;
     }
 
     .about-lead2 {
-        font-size: 16px;
-        color: var(--lead-color);
-        line-height: 1.5;
         margin-top: 20px;
     }
 
@@ -89,13 +83,7 @@
     }
 
     .facility-content p {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        color: var(--lead-color);
-        font-size: 18px;
-        line-height: 1.5;
+        margin: 20px 0;
     }
 
     .join-lead {
@@ -104,7 +92,6 @@
     }
 
     .join-lead P {
-        font-size: 20px;
         color: var(--main-color);
     }
 
@@ -181,9 +168,7 @@
         width: 100%;
         padding-top: 38px;
         padding-bottom: 38px;
-        font-size: 24px;
         text-align: center;
-        color: var(--lead-color);
     }
 
     .about-box {
@@ -219,14 +204,6 @@
         line-height: 1.5;
     }
 
-    .about-lead2 {
-        font-size: 18px;
-        color: var(--lead-color);
-        line-height: 2;
-    }
-
-
-
     .facility-box {
         display: flex;
         justify-content: space-between;
@@ -257,7 +234,6 @@
     }
 
     .join-lead P {
-        font-size: 20px;
         color: var(--main-color);
     }
 
@@ -272,7 +248,6 @@
 
     .circle {
         display: inline-block;
-
         width: 300px;
         height: 300px;
         line-height: 2.5;
@@ -287,7 +262,7 @@
 
     .circle-content h3 {
         margin-bottom: 20px;
-        color: var(--lead-color);
+        color: var(--main-color);
     }
 
     .circle-content p {
