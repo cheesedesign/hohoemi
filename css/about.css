@@ -17,7 +17,7 @@
     }
 
     .box {
-        background-color: #ffffff;
+        background-color: var(--white-color);
         opacity: 0.8;
         border-radius: 15px;
         padding: 100px 20px;
@@ -186,7 +186,7 @@
     }
 
     .box {
-        background-color: #ffffff;
+        background-color: var(--white-color);
         opacity: 0.8;
         border-radius: 15px;
         padding: 100px;

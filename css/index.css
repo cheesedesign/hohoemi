@@ -1,5 +1,5 @@
 .top-copy h3 {
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 @media screen and (max-width: 720px) {
