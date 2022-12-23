@@ -238,7 +238,7 @@
      }
 
      .headline p {
-         font-size: 68px;
+         font-size: 18vw;
          color: var(--main-color);
          opacity: 0.1;
      }
