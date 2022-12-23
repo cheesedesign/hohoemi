@@ -235,6 +235,7 @@
          left: 50%;
          transform: translate(-50%, -50%);
          font-weight: normal;
+         width: 100%;
      }
 
      .headline p {
