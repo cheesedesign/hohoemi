@@ -170,39 +170,53 @@
 
     .about-box {
         display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .about-content {
         background-image: url("../img/5006138_s.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 40%;
+        width: 30%;
         padding: 40px;
         border-radius: 15px;
+        min-width: 300px;
     }
 
     .about-content-2 {
         background-image: url("../img/24845390_s.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        width: 40%;
+        width: 30%;
         padding: 40px;
         border-radius: 15px;
+        min-width: 300px;
     }
+
 
     .box {
         background-color: var(--white-color);
         opacity: 0.8;
         border-radius: 15px;
-        padding: 100px;
+        padding: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         text-align: center;
 
     }
 
     .plus {
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 130px;
+        width: 10%;
+        min-width: 70px;
+        position: relative;
+    }
+
+    .plus img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .goldframe {
