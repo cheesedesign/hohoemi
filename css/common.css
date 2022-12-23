@@ -215,6 +215,10 @@
          padding-top: 10px;
      }
 
+     .header_logo img {
+         width: 15vw;
+     }
+
      .headline {
          position: relative;
          text-align: center;
