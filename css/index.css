@@ -10,7 +10,7 @@
     background-color: var(--white-color);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
     .top {
         position: relative;
     }
@@ -136,9 +136,28 @@
         border: solid 1px var(--main-color);
     }
 
-    .circle-content img {
-        margin-right: 150px;
-        margin-bottom: 10px;
+    .circle-content {
+        position: relative;
+        height: 100%;
+    }
+
+    .circle-img {
+        position: absolute;
+        top: 1.4vw;
+        left: 10vw;
+        width: 6vw;
+    }
+
+    .circle-img img {
+        width: 100%;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     .circle-content h3 {
@@ -150,7 +169,7 @@
     }
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 951px) {
 
     .top {
         position: relative;
@@ -163,26 +182,26 @@
 
     .top-lead {
         position: absolute;
-        left: 200px;
-        top: 200px;
+        top: 20%;
+        left: 10%;
     }
 
     .lead1 {
-        font-size: 32px;
+        font-size: 2vw;
         left: 15px;
         margin-bottom: 20px;
         color: var(--main-color);
     }
 
     .lead2 {
-        font-size: 40px;
+        font-size: 2.5vw;
         left: 10px;
         margin-bottom: 30px;
         color: var(--main-color);
     }
 
     .lead3 {
-        font-size: 96px;
+        font-size: 5vw;
         color: var(--main-color);
     }
 
@@ -222,6 +241,8 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 50px;
+        width: 100%;
+        height: 50%;
     }
 
     .about-lead1 {
@@ -274,25 +295,44 @@
 
     .join-box {
         display: flex;
-        text-align: center;
+        justify-content: space-between;
     }
 
     .join-content {
-        width: 100%;
+        width: 30%;
     }
 
     .circle {
         display: inline-block;
-        width: 300px;
-        height: 300px;
+        width: 20vw;
+        height: 20vw;
         line-height: 2.5;
         border-radius: 50%;
         border: solid 1px var(--main-color);
     }
 
-    .circle-content img {
-        margin-right: 150px;
-        margin-bottom: 10px;
+    .circle-content {
+        position: relative;
+        height: 100%;
+    }
+
+    .circle-img {
+        position: absolute;
+        top: 1.4vw;
+        left: 1vw;
+        width: 2.5vw;
+    }
+
+    .circle-img img {
+        width: 100%;
+    }
+
+    .circle-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     .circle-content h3 {

@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
 
     .contact-box {
         width: 50%;
@@ -95,7 +95,7 @@
 
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 951px) {
 
     .contact-text {
         margin-top: 200px;

@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 950px) {
 
     .about-content {
         background-image: url("../img/5006138_s.jpg");
@@ -166,7 +166,7 @@
 }
 
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 951px) {
 
     .about-box {
         display: flex;
@@ -232,10 +232,12 @@
     .service-box {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .service-content {
-        width: 100%;
+        width: 25%;
+        min-width: 250px;
     }
 
     .service-content_img {
