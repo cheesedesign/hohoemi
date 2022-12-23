@@ -27,21 +27,21 @@
     }
 
     .lead1 {
-        font-size: 16px;
+        font-size: 2vw;
         left: 15px;
         margin-bottom: 5px;
         color: var(--main-color);
     }
 
     .lead2 {
-        font-size: 18px;
+        font-size: 3vw;
         left: 10px;
         margin-bottom: 10px;
         color: var(--main-color);
     }
 
     .lead3 {
-        font-size: 32px;
+        font-size: 8vw;
         color: var(--main-color);
     }
 
